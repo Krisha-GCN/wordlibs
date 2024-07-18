@@ -81,3 +81,10 @@
     transform: translate(0px, -70px);
 }
 
+#Submit{
+    width:125px;
+    height:45px;
+    border-color: rgb(85, 78, 184);
+    transform: translate(770px, -800px);
+}
+
