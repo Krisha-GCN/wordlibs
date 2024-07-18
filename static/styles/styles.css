@@ -1,0 +1,19 @@
+#head{
+    background-color: rgb(144, 144, 255);
+    width:800px;
+    height:400px;
+    transform: translate(180px, 140px);
+}
+
+#ex1{
+    display: flex;
+    background-color: bisque;
+    height:50px;
+}
+
+#bigtext{
+    transform: translate(280px, 100px);
+}
+#firstrow{
+    transform: translate(280px -500px);
+}
