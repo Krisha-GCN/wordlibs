@@ -1,7 +1,7 @@
 #head{
     background-color: rgb(144, 144, 255);
-    width:800px;
-    height:400px;
+    width:1200px;
+    height:600px;
     transform: translate(180px, 140px);
 }
 
@@ -12,8 +12,18 @@
 }
 
 #bigtext{
-    transform: translate(280px, 100px);
+    transform: translate(500px, 200px);
 }
-#firstrow{
-    transform: translate(280px -500px);
+#first{
+    width:200px;
+    height:60px;
+    border-color: rgb(85, 78, 184);
+    transform: translate(230px, -400px);
+}
+
+#second{
+    width:200px;
+    height:60px;
+    border-color: rgb(85, 78, 184);
+    transform: translate(490px, -465px);  
 }
