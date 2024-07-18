@@ -1,0 +1,83 @@
+#head{
+    background-color: rgb(144, 144, 255);
+    width:1290px;
+    height:680px;
+    transform: translate(180px, 140px);
+}
+
+#ex1{
+    display: flex;
+    background-color: bisque;
+    height:50px;
+}
+
+#bigtext{
+    transform: translate(500px, 200px);
+}
+#first{
+    width:250px;
+    height:90px;
+    border-color: rgb(85, 78, 184);
+    transform: translate(230px, -400px);
+}
+
+#second{
+    width:250px;
+    height:90px;
+    border-color: rgb(85, 78, 184);
+    transform: translate(540px, -495px);  
+}
+
+#third{
+    width:250px;
+    height:90px;
+    border-color: rgb(85, 78, 184);
+    transform: translate(850px, -590px); 
+}
+
+#fourth{
+    width:250px;
+    height:90px;
+    border-color: rgb(85, 78, 184);
+    transform: translate(1160px, -685px); 
+}
+
+#fifth{
+    width:250px;
+    height:90px;
+    border-color: rgb(85, 78, 184);
+    transform: translate(230px, -655px); 
+}
+
+#sixth{
+    width:250px;
+    height:90px;
+    border-color: rgb(85, 78, 184);
+    transform: translate(540px, -750px); 
+}
+
+#seventh{
+    width:250px;
+    height:90px;
+    border-color: rgb(85, 78, 184);
+    transform: translate(850px, -845px); 
+}
+
+#eighth{
+    width:250px;
+    height:90px;
+    border-color: rgb(85, 78, 184);
+    transform: translate(1160px, -940px); 
+}
+
+#nineth{
+    width:250px;
+    height:90px;
+    border-color: rgb(85, 78, 184);
+    transform: translate(700px, -840px); 
+}
+
+#firstrow{
+    transform: translate(0px, -70px);
+}
+
