@@ -16,6 +16,7 @@
     </div>
     <div id="firstrow">
         <form action="{{ url }}" method="POST">
+
             <input type="text" style="font-size: 30px;" name="adj1" id="first" value="Ajective">       
             <input type="text" style="font-size: 30px;" name="food" id="second" value="Food">       
             <input type="text" style="font-size: 30px;" name="body_part" id="third" value="body part">       
@@ -30,6 +31,49 @@
             <input type="submit" style="font-size: 30px;" name="Submit" id="Submit" value="Submit">       
 
         </form>
+
+            <input type="text" name="adj1" id="first" value="Ajective">       
+        </form>
+        <form action="{{ url }}" method="POST">
+            <input type="text" name="food" id="second" value="Food">       
+        </form>
+
+        <form action="{{ url }}" method="POST">
+            <input type="text" name="body_part" id="third" value="body part">       
+        </form>
+
+
+        <form action="{{ url }}" method="POST">
+            <input type="text" name="spice" id="fourth" value="Spice">       
+        </form>
+    </div> 
+
+    <div id="secondrow">
+        <form action="{{ url }}" method="POST">
+            <input type="text" name="adj2" id="fifth" value="Adjective">       
+        </form>
+        <form action="{{ url }}" method="POST">
+            <input type="text" name="adj3" id="sixth" value="Adjective">       
+        </form>
+
+        <form action="{{ url }}" method="POST">
+            <input type="text" name="adverb" id="seventh" value="Adverb">       
+        </form>
+
+
+        <form action="{{ url }}" method="POST">
+            <input type="text" name="person" id="eighth" value="Person">       
+        </form>
+    </div>
+
+    <form action="{{ url }}" method="POST">
+        <input type="text" name="emoji" id="nineth" value="Emoji">       
+    </form>
+
+    <form action="{{ url }}" method="POST">
+        <input type="submit" name="Submit" id="Submit" value="Submit">       
+    </form>
+
  
 
 </body>

@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, url_for, redirect
 
 app = Flask(__name__)
 
+
 @app.route('/', methods=['POST', 'GET'])
 def madlibs():
     if request.method == "POST":
@@ -29,8 +30,14 @@ def madlibs():
     return render_template("madlibs.html")
 
 
+@app.route('/')
+def hello():
+    return render_template('madlibs.html', url='/completed')
+
+
 @app.route('/completed')
 def completed():
+
     return render_template("completed.html", 
     adj1 = adj1,
     food = food, 
@@ -42,6 +49,21 @@ def completed():
     person = person, 
     emotion = emotion)
 
+
+
+    if request.method == "POST":
+        return render_template("completed.html", 
+            adj1 = request.form["adj1"],
+            food = request.form["food"], 
+            body_part = request.form["body_part"],
+            spice =  request.form["spice"],
+            adj2 = request.form["adj2"], 
+            adj3 = request.form["adj3"],
+            adverb = request.form["adverb"],
+            person = request.form["person"], 
+            emotion = request.form["emotion"], url='/completed')
+
+    return render_template("madlibs.html")
 
 
 if __name__ == '__main__':
