@@ -1,0 +1,24 @@
+#result{
+    display: flex;
+    background-color: bisque;
+}
+
+#whole{
+    transform: translate(380px, -290px);
+    font-family: arial;
+    font-size: 20px;
+    color:white;
+}
+
+
+#box{
+    background-color: rgb(144, 144, 255);
+    width:1290px;
+    height:680px;
+    transform: translate(180px, 140px);
+}
+
+#title{
+    transform: translate(700px, -700px);
+    color:white;
+}
