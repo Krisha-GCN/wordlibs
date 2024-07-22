@@ -25,56 +25,56 @@
     width:250px;
     height:90px;
     border-color: rgb(85, 78, 184);
-    transform: translate(540px, -495px);  
+    transform: translate(290px, -400px);  
 }
 
 #third{
     width:250px;
     height:90px;
     border-color: rgb(85, 78, 184);
-    transform: translate(850px, -590px); 
+    transform: translate(350px, -400px); 
 }
 
 #fourth{
     width:250px;
     height:90px;
     border-color: rgb(85, 78, 184);
-    transform: translate(1160px, -685px); 
+    transform: translate(410px, -400px); 
 }
 
 #fifth{
     width:250px;
     height:90px;
     border-color: rgb(85, 78, 184);
-    transform: translate(230px, -655px); 
+    transform: translate(230px, -355px); 
 }
 
 #sixth{
     width:250px;
     height:90px;
     border-color: rgb(85, 78, 184);
-    transform: translate(540px, -750px); 
+    transform: translate(290px, -355px); 
 }
 
 #seventh{
     width:250px;
     height:90px;
     border-color: rgb(85, 78, 184);
-    transform: translate(850px, -845px); 
+    transform: translate(350px, -355px); 
 }
 
 #eighth{
     width:250px;
     height:90px;
     border-color: rgb(85, 78, 184);
-    transform: translate(1160px, -940px); 
+    transform: translate(410px, -355px); 
 }
 
 #nineth{
     width:250px;
     height:90px;
     border-color: rgb(85, 78, 184);
-    transform: translate(700px, -840px); 
+    transform: translate(710px, -310px); 
 }
 
 #firstrow{
@@ -85,6 +85,6 @@
     width:125px;
     height:45px;
     border-color: rgb(85, 78, 184);
-    transform: translate(770px, -800px);
+    transform: translate(520px, -200px);
 }
 
